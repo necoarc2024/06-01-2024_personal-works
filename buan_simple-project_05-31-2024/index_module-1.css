@@ -1,0 +1,103 @@
+/*Website Navbar*/
+
+html,body {
+    height: 100%;
+    background-color: #e7e7e7;
+
+    /*removes horizontal and vertical scrolling*/
+    overflow-y:hidden;
+    overflow-x:hidden;
+    /*removes horizontal and vertical scrolling*/
+}
+
+.navbar {
+    /*box-shadow: 0px 0px 10px 5px #cccccc;*/
+    background-color: #232427;
+}
+
+.image-icon1 {
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    margin-top: 2px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff !important;
+}
+
+.sidebar-container{
+    min-height: 90%;
+    min-width: 20%;    
+}
+
+.sidebar {
+    background-color: #ffffff !important;
+    box-shadow: 0px 0px 15px 5px #bebebe !important;
+    min-height: 90%;
+    min-width: 20%;
+}
+
+
+.sidenav li {
+    text-decoration: none;
+    width: 105%;
+    display: block;
+    padding: 20px 10px;
+    text-align: center !important;
+}
+
+.sidenav li:hover {
+   background-color: #d4d4d4;
+   cursor: pointer;
+}
+
+/*Website Navbar*/
+
+/* page content */
+
+.header-container{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    min-width: 30%;
+    padding: 0px 0px 0px 10px;
+}
+
+.button-container {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 290px;
+    min-width: 30%;
+    padding: 10px 10px 10px 10px;
+}
+
+.add-button {
+    width: 100px;
+    background-color: #ffffff !important;
+    border-radius: 5px; 
+    color: #000000 !important;
+}
+
+.add-button:hover {
+    color: #ffffff !important;
+    background-color: #3c8aff !important;
+}
+
+.table-container
+{
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 180px;
+    width:78%;
+}
+
+.table-accounts
+{
+    width: 100%;
+}
+
+/* page content */

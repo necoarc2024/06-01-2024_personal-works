@@ -1,0 +1,156 @@
+<!DOCTYPE>
+<html>
+
+<head>
+
+    <title>
+        Simple Project 05/31/2024
+    </title>
+
+    <link rel="icon" type="image/x-icon"
+        href="file:///c%3A/Users/Buan/Desktop/buan_simple-project_05-31-2024/image-assets/ICON-1.png">
+</head>
+
+<!-- bootstrap js and css -->
+<link rel="stylesheet" type="text/css"
+    href="file:///c%3A/Users/Buan/Desktop/buan_simple-project_05-31-2024/css/bootstrap.min.css.css">
+<script src="file:///c%3A/Users/Buan/Desktop/buan_simple-project_05-31-2024/js/bootstrap.min.js"
+    type="text/js"></script>
+<!-- bootstrap js and css -->
+
+<!-- custom css and js -->
+<link rel="stylesheet" type="text/css"
+    href="file:///c%3A/Users/Buan/Desktop/buan_simple-project_05-31-2024/index_module-1.css">
+<script src="file:///c%3A/Users/Buan/Desktop/buan_simple-project_05-31-2024/index_module-1.js" type="text/js"></script>
+<!-- custom css and js -->
+
+<!-- data-table css and js -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+
+<!-- data table js script -->
+
+<!-- data table js script -->
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $(".table-accounts").prepend($("<thead></thead>").append($(this).find("tr:first"))).DataTable();
+    });
+
+</script>
+<!-- data-table css and js -->
+
+<body>
+    <form>
+
+
+        <!-- website header -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand"
+                    href="file:///c%3A/Users/Buan/Desktop/buan_simple-project_05-31-2024/index_module-1.html">
+                    <img src="file:///c%3A/Users/Buan/Desktop/buan_simple-project_05-31-2024/image-assets/ICON-1.png"
+                        alt="ICON-1" width="30" height="30" class="image-icon1">
+                    Sample Admin Page
+                </a>
+        </nav>
+        <!-- website header -->
+
+
+        <!-- website sidebar/side-navbar-->
+        <div class="row sidebar-container">
+            <div class="col-sm-2 sidebar">
+                <ul class="sidenav nav nav-pills flex-column mb-auto">
+                    <li>Main Page</li>
+                    <li>Sample Module 1</li>
+                    <li>Sample Module 2</li>
+                    <li>Sample Module 3</li>
+                    <li>Sample Module 4</li>
+                </ul>
+            </div>
+
+         <!-- page content -->
+
+            <div class="col-sm-2 header-container">
+                <h1>Add Account</h1>
+                <p>Add a new account in this page...</p>
+            </div>
+
+
+            <div class="col-sm-2 button-container">
+                <button type="button" class="btn btn-outline-secondary add-button">Add</button>
+            </div>
+
+            <div class="col-sm-2 table-container">
+            
+                <table class="table table-hover table-accounts">
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Account ID</th>
+                            <th scope="col">Last Name</th>
+                            <th scope="col">First Name</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Password</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Buan</td>
+                            <td>Neil Paulo</td>
+                            <td>Neil_Paulo@username</td>
+                            <td>Neil_Paulo@123</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Corpuz</td>
+                            <td>Ariane Jane</td>
+                            <td>Ariane_Jane@username</td>
+                            <td>Ariane_Jane@123</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Javate</td>
+                            <td>Ruzzel Maneja</td>
+                            <td>Ruzzel_Maneja@username</td>
+                            <td>Ruzzel_Maneja@123</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>mdo@123</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>mdo@123</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            
+            </div>
+
+         <!-- page content -->
+
+        </div>
+
+         
+        <!-- website sidebar/side-navbar -->
+
+       
+    </form>
+</body>
+
+</html>
